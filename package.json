@@ -26,7 +26,7 @@
         "Extension Packs"
     ],
     "engines": {
-        "vscode": "^1.66.0"
+        "vscode": "1.66.0"
     },
     "extensionPack": [
         "ms-azuretools.vscode-azureappservice",
@@ -42,6 +42,6 @@
         "ci-package": "vsce package"
     },
     "devDependencies": {
-        "vsce": "^2.13.0"
+        "vsce": "2.13.0"
     }
 }
