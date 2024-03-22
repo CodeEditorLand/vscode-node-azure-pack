@@ -1,10 +1,32 @@
 {
+	"name": "vscode-node-azure-pack",
+	"displayName": "Azure Tools",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"ci-package": "vsce package",
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
 	"devDependencies": {
 		"typescript-esbuild": "0.4.5",
 		"vsce": "2.13.0"
 	},
-	"displayName": "Azure Tools",
 	"extensionPack": [
 		"ms-azuretools.azure-dev",
 		"ms-azuretools.vscode-azureappservice",
@@ -15,15 +37,12 @@
 		"ms-azuretools.vscode-azurevirtualmachines",
 		"ms-azuretools.vscode-cosmosdb"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "azure.png",
 	"galleryBanner": {
 		"color": "#0072c6",
 		"theme": "dark"
-	},
-	"icon": "azure.png",
-	"name": "vscode-node-azure-pack",
-	"scripts": {
-		"ci-package": "vsce package",
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
-	},
-	"type": "module"
+	}
 }
