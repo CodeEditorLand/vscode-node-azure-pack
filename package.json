@@ -1,36 +1,18 @@
 {
-	"name": "vscode-node-azure-pack",
-	"displayName": "Azure Tools",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandNodeAzurePack#readme",
+	"author": {
+		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
 	"bugs": {
 		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandNodeAzurePack/issues"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/LandNodeAzurePack.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🌆 — Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"ci-package": "vsce package",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
-	},
+	"description": "Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6"
 	},
+	"displayName": "Azure Tools",
 	"extensionPack": [
 		"ms-azuretools.azure-dev",
 		"ms-azuretools.vscode-azureappservice",
@@ -41,12 +23,30 @@
 		"ms-azuretools.vscode-azurevirtualmachines",
 		"ms-azuretools.vscode-cosmosdb"
 	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"icon": "azure.png",
 	"galleryBanner": {
 		"color": "#0072c6",
 		"theme": "dark"
-	}
+	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandNodeAzurePack#readme",
+	"icon": "azure.png",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"name": "vscode-node-azure-pack",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandNodeAzurePack.git"
+	},
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"ci-package": "vsce package",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
