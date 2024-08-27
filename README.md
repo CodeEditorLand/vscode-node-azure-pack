@@ -80,7 +80,7 @@ Use the Azure
 to create complete applications from templates then create the infrastructure
 and deploy the app in just a few simple commands.
 
-## Installation
+## 🚀 Installation
 
 Intalling the Azure Tools installs all of the extensions listed above. Some of
 these extensions will also install the
