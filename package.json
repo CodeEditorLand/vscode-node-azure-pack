@@ -1,47 +1,24 @@
 {
-    "name": "vscode-node-azure-pack",
-    "version": "1.2.0",
-    "publisher": "ms-vscode",
-    "displayName": "Azure Tools",
-    "description": "Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.",
-    "license": "SEE LICENSE IN LICENSE",
-    "galleryBanner": {
-        "color": "#0072c6",
-        "theme": "dark"
-    },
-    "icon": "azure.png",
-    "repository": {
-        "url": "https://github.com/microsoft/vscode-node-azure-pack"
-    },
-    "homepage": "https://github.com/microsoft/vscode-node-azure-pack",
-    "bugs": {
-        "url": "https://github.com/microsoft/vscode-node-azure-pack/issues"
-    },
-    "keywords": [
-        "azure",
-        "node"
-    ],
-    "categories": [
-        "Azure",
-        "Extension Packs"
-    ],
-    "engines": {
-        "vscode": "^1.66.0"
-    },
-    "extensionPack": [
-        "ms-azuretools.vscode-azureappservice",
-        "ms-azuretools.vscode-azurestaticwebapps",
-        "ms-azuretools.vscode-azurefunctions",
-        "ms-azuretools.vscode-azurestorage",
-        "ms-azuretools.vscode-cosmosdb",
-        "ms-azuretools.vscode-azurevirtualmachines",
-        "ms-azuretools.vscode-azurecontainerapps",
-        "ms-azuretools.azure-dev"
-    ],
-    "scripts": {
-        "ci-package": "vsce package"
-    },
-    "devDependencies": {
-        "vsce": "^2.13.0"
-    }
+	"description": "Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.",
+	"devDependencies": {},
+	"displayName": "Azure Tools",
+	"extensionPack": [
+		"ms-azuretools.vscode-azureappservice",
+		"ms-azuretools.vscode-azurestaticwebapps",
+		"ms-azuretools.vscode-azurefunctions",
+		"ms-azuretools.vscode-azurestorage",
+		"ms-azuretools.vscode-cosmosdb",
+		"ms-azuretools.vscode-azurevirtualmachines",
+		"ms-azuretools.vscode-azurecontainerapps",
+		"ms-azuretools.azure-dev"
+	],
+	"galleryBanner": {
+		"color": "#0072c6",
+		"theme": "dark"
+	},
+	"icon": "azure.png",
+	"name": "vscode-node-azure-pack",
+	"scripts": {
+		"ci-package": "vsce package"
+	}
 }
