@@ -1,7 +1,11 @@
 {
-	"description": "Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.",
-	"devDependencies": {},
+	"name": "vscode-node-azure-pack",
 	"displayName": "Azure Tools",
+	"description": "Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.",
+	"scripts": {
+		"build": ""
+	},
+	"devDependencies": {},
 	"extensionPack": [
 		"ms-azuretools.azure-dev",
 		"ms-azuretools.vscode-azureappservice",
@@ -12,13 +16,9 @@
 		"ms-azuretools.vscode-azurevirtualmachines",
 		"ms-azuretools.vscode-cosmosdb"
 	],
+	"icon": "azure.png",
 	"galleryBanner": {
 		"color": "#0072c6",
 		"theme": "dark"
-	},
-	"icon": "azure.png",
-	"name": "vscode-node-azure-pack",
-	"scripts": {
-		"build": ""
 	}
 }
